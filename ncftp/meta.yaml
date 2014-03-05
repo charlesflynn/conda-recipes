@@ -1,0 +1,15 @@
+package:
+  name: ncftp
+  version: 3.2.5
+
+source:
+  fn: ncftp-3.2.5-src.tar.bz2
+  url: ftp://ftp.ncftp.com/ncftp/ncftp-3.2.5-src.tar.bz2
+  md5: b05c7a6d5269c04891f02f43d4312b30
+
+build:
+  number: 1
+
+about:
+    home: http://www.ncftp.com/ncftp/
+    license:  The Clarified Artistic License

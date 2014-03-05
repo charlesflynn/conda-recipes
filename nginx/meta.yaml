@@ -1,0 +1,25 @@
+package:
+  name: nginx
+  version: 1.4.6
+
+source:
+  fn: nginx-1.4.6.tar.gz
+  url: http://nginx.org/download/nginx-1.4.6.tar.gz
+  sha1: 1d790fd2b403b0b694a8dbbc28f7e34dbc3ca863
+
+build:
+  number: 1
+
+requirements:
+  build:
+      - pcre
+      - zlib
+      - openssl
+  run:
+      - pcre
+      - zlib
+      - openssl
+
+about:
+    home: http://nginx.org
+    license: 2-clause BSD

@@ -1,0 +1,15 @@
+package:
+  name: ant
+  version: 1.9.3
+
+source:
+  fn: apache-ant-1.9.3-bin.tar.bz2
+  url: http://mirrors.sonic.net/apache/ant/binaries/apache-ant-1.9.3-bin.tar.bz2
+  sha1: efcf206e24b0dd1583c501182ad163af277951a4
+
+build:
+  number: 1
+
+about:
+    home: http://ant.apache.org
+    license:  Apache License 2.0
